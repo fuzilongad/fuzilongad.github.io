@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <title>个人简历</title>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+     <style>
+         .img-container {
+             width: 260px;
+             height: 370px;
+             margin-left: 0px;
+             display: inline-block;
+         }
+         .img-container img {
+             width: 100%;
+             height: 100%;
+             object-fit: cover;
+         }
+         table{
+             width: 1000px;
+             text-align: center;
+             border: 1px solid ;
+             border-collapse : collapse;
+             background-color: rgb(190, 217, 236);
+             margin: auto;
+            }
+         h1,h3{
+             background-color: rgb(194, 220, 240)
+           }
+        td,th{
+            border: 1px solid;
+        }
+         th{
+             height: 70px;
+         }
+         .stuff{
+             background-color: rgb(57, 117, 169);
+         }
+        .icon-list {
+            list-style: none;
+            padding-left: 20px;
+            margin-bottom: 30px;
+            color:#218cd3
+        }
+        .icon-list li {
+            margin: 12px 0;
+            color: #2a7bcd;
+            font-size: 16px;
+            position: relative;
+            padding-left: 30px;
+        }
+         .icon-list li:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 2px;
+            width: 20px;
+            height: 20px;
+            color: #cc1e47;
+        }
+        .hobby-list li:before {
+            content: "\f005"; 
+            font-family: "FontAwesome";
+            color :#218cd3
+        }
+       </style>
+ </head>
+ <body>
+<table>
+    <caption>
+         <h1>个人简历</h1>
+         <hr style="color: #218cd3; border-style:calc() ;height: 2px;">
+    </caption>
+</table>
+ <table>
+     <caption>
+             <h3><i class="fa fa-certificate" aria-hidden="true"></i> 基本信息</h3>
+     </caption>
+        <tr class="even">
+            <td colspan="2" rowspan="5" width="136"  colspan="6">
+               <div class="img-container">
+                 <img src="王泽兵.jpg" alt="王泽兵"/> 
+               </div>
+            </td>
+        </tr>
+        <tr>
+            <td>姓名</td>
+            <td>王泽兵</td>
+            <td>性别</td>
+            <td>男</td>
+        </tr>
+        <tr>
+            <td>年龄</td>
+            <td>19岁</td>
+            <td>籍贯</td>
+            <td>山东德州</td>
+        </tr>
+        <tr>
+            <td>联系电话</td>
+            <td>15965227530</td>
+            <td>电子邮箱</td>
+            <td>fuzilongad@qq.com</td>
+        </tr>
+        <tr>
+            <td>毕业院校</td>
+            <td>鲁东大学</td>
+            <td>学历</td>
+            <td>本科</td>
+        </tr>
+ </table>
+ <table>
+     <caption>
+             <h3><i class="fa fa-certificate" aria-hidden="true"></i> 项目经历</h3>
+     </caption>
+            <tr>
+                <th>时间</th>
+                <th>项目名称</th>
+                <th>项目描述</th>
+            </tr>
+            <tr height="20px">
+                <td>2025年</td>
+                <td>2025年软件杯大赛（本科组）</td>
+                <td>基于开源AI大模型的教学实训智能体软件</td>
+            </tr>
+ </table>
+ <table>
+     <caption>
+         <h3><i class="fa fa-certificate" aria-hidden="true"></i> 技能证书</h3>
+     </caption>
+      <tr>
+          <td>
+             <ol class="icon-list hobby-list">
+                 计算机二级C语言证书<br>
+                 Python数据分析工程师（初级）证书<br>
+                 Web前端开发工程师（初级）证书
+             </ol>
+          </td>
+      </tr>
+ </table>
+ <table>
+     <caption>
+         <h3><i class="fa fa-heart" aria-hidden="true"></i> 兴趣爱好</h3>
+     </caption>
+      <tr height="20px">
+          <td>
+             <ol class="icon-list hobby-list">
+                 <li>阅读</li>
+                 <li>音乐</li>
+                 <li>羽毛球</li>
+                 <li>web开发</li>
+              </ol>
+          </td>
+     </tr>
+ </table>
+ <table>
+     <caption>
+         <h3><i class="fa fa-comment" aria-hidden="true"></i> 自我评价</h3>
+     </caption>
+     <tr height="20px">
+          <td> 
+              <div class="self-evaluation">
+                     我是一名软件工程专业的学生，对Web开发领域抱有浓厚兴
+                     趣和探索热情。目前已初步掌握HTML，CSS等前端基础技术，
+                     能够独立完成小型静态网页的布局与样式实现。具备扎实的计
+                     算机基础，熟悉数据结构的核心概念，并能通过编程实践解决
+                     简单问题。作为初学者，我深知自身在技术深度和实战经验上
+                     仍有不足，但我能始终保持积极的学习心态，通过技术文档，
+                     在线课程补充知识，善于总结问题并尝试独立解决。未来希望
+                     能在Web开发的前后端领域持续深耕，不断提升代码质量与工
+                     程化思维，朝着成为一名合格的开发工程师努力。
+              </div>
+          </td>
+     </tr>
+ </table> 
+ </body>
+ </html>
